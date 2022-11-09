@@ -1,0 +1,90 @@
+body {
+    background-color: #123760;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 97vw;
+    height: 96vh;
+}
+
+.container {
+    border: 1px solid gray;
+    width: 30%;
+    height: 50%;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+}
+
+.container-login {
+    margin-left: 25px;
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.titrelogin {
+    font-size: 30px;
+}
+
+.mdpoublié {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    font-size: 15px;
+    align-items: baseline;
+    
+}
+
+.inputlog {
+    position: absolute;
+    border: none;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid grey;
+    width: 25%;
+    text-align: center;
+}
+
+.inputlog:focus {
+    outline: none;
+}
+
+::placeholder {
+    text-align: center;
+}
+
+.login i {
+    position: absolute;
+    color: grey;
+}
+
+.connexion {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 30%;
+    
+    
+}
+
+.aconnexion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #123760;
+    height: 50px;
+    width: 50%;
+    border-radius: 25px;
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
